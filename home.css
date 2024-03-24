@@ -1,18 +1,18 @@
 @font-face {
     font-family:logoFont;
-    src: url(./assets/FONTS/PermanentMarker-Regular.ttf);
+    src: url(./assets/FONTWOFF2/PermanentMarker-Regular.woff2);
 }
 @font-face {
     font-family:WATERMARK;
-    src: url(./assets/FONTS/WATERMARK.ttf);
+    src: url(./assets/FONTWOFF2/WATERMARK.woff2);
 }
 @font-face {
     font-family:MenuFont;
-    src: url(./assets/FONTS/menuFont.ttf);
+    src: url(./assets/FONTWOFF2/menuFont.woff2);
 }
 @font-face {
     font-family:mainHeading;
-    src: url(./assets/FONTS/mainHeading.ttf);
+    src: url(./assets/FONTWOFF2/mainHeading.woff2);
 }
 html {
   font-size: 10px;
