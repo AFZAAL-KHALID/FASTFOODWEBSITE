@@ -22,6 +22,7 @@
 <!-- ******************************************************************** -->
 <body>
     <main class="MainRapper">
+        <div class="orangeCursor"></div>
 
         <!-- into DIV 🙋‍♀️-->
         <div class="intro">
@@ -40,6 +41,7 @@
         <!-- ---------------------------------First Container --- -1️⃣ -------------------------------------------------->
         <div class="ContainerFirst" id="ContainerFirstID">
             <div class="navBar">
+                
                 <ul>
                     <li><a href="#MENU">Menu</a></li>
                     <li><a href="#ContainerFifth-ID">About</a></li>
@@ -79,7 +81,7 @@
             <div class="right-Yellow">
                 <h1 class="GREAT-BITE">#GREAT-BITE</h1>
                 <div class="Hide-NavBar">
-                    <h1 class="arrow">&#x2190</h1>
+                    <!-- <h1 class="arrow">&#x2190</h1> -->
                     <div class="Hide-Menu" ><a href="#MENU">MENU</a></div>
                     <div class="Hide-Menu"><a href="#ContainerFifth-ID"> ABOUT</a></div>
                     <div class="Hide-Menu"><a href="#Containerforth" >CONTACT</a> </div>
@@ -115,39 +117,38 @@
         </div>
 <!-- ----------------------------------------SECOND Container-----22️⃣--------------------------------------------- -->
 
-        <DIV class="ContainerSecond">
-            <div class="orangeCursor"></div>
-            <div class="slider-container">
-                <div class="slides">
-                  <!-- fist slide -->
-                    <div class="slide" id="Second-Slide-1">
-                        
-                        <div id="blueWhite-Text">   <SPan class="bestword">BEST</SPan>  <span>BURGER</span></div>
-                        <!-- ⬅️ -->
-                        <div class="Slide-1-left">
-                            <H1 class="Btext">B <SPan class="Bspan">EST</SPan></H1>
-
-                            <img src="./assets/second slider/brush.png" alt="" class="orangeBrush">
-                            <img src="./assets/second slider/bestBurger.png" alt="" class="bestBurger">
-                            <img src="./assets/second slider/coke.png" alt="" class="coke">
-                        </div>
-                        
-                        <!-- ⬅➡️ -->
-                    <div class="Slide-1-right">
-                        <h1 id="ourBestSelling">OUR BEST SELLING</h1>
-                        <h1 class="see-More">See More <i class="ri-arrow-right-line"></i></h1>
-                    </div>
-
+<DIV class="ContainerSecond">
+    <div class="slider-container">
+        <div class="slides">
+            <!-- <div class="orangeCursor"></div> -->
+            <!-- fist slide -->
+            <div class="slide" id="Second-Slide-1">
+                <div id="blueWhite-Text">   <SPan class="bestword">BEST</SPan>  <span>BURGER</span></div>
+                <!-- ⬅️ -->
+                <div class="Slide-1-left">
+                    <H1 class="Btext">B <SPan class="Bspan">EST</SPan></H1>
+                    
+                    <img src="./assets/second slider/brush.png" alt="" class="orangeBrush">
+                    <img src="./assets/second slider/bestBurger.png" alt="burgerImage" class="bestBurger">
+                    <img src="./assets/second slider/coke.png" alt="coldDrinkImage" class="coke">
                 </div>
+                
+                <!-- ⬅➡️ -->
+                <div class="Slide-1-right">
+                    <h1 id="ourBestSelling">OUR BEST SELLING</h1>
+                    <h1 class="see-More">See More <i class="ri-arrow-right-line"></i></h1>
+                </div>
+                
+            </div>
             
-                <!-- second slide -->
-                <div class="slide" id="Second-Slide-2">
-                    <div class="InnerSlide">
-                        <!-- ⬅️ -->
-                        <div class="slide-2-left"><span>CA</span> <span>KE</span></div>
-                        <img src="./assets/second slider/cycle.png" alt="" class="cycle">
-                        <img src="./assets/second slider/pink bundle baloon.png" alt="" class="pinkBundle-baloons">
-                        
+            <!-- second slide -->
+            <div class="slide" id="Second-Slide-2">
+                <div class="InnerSlide">
+                    <!-- ⬅️ -->
+                    <div class="slide-2-left"><span>CA</span> <span>KE</span></div>
+                    <img src="./assets/second slider/cycle.png" alt="" class="cycle">
+                    <img src="./assets/second slider/pink bundle baloon.png" alt="" class="pinkBundle-baloons">
+                    
                         <!-- ⬅➡️ -->
                         <div class="slide-2-right">
                           
@@ -176,9 +177,9 @@
                     <div class="right-Background"></div>
                     <div class="center-Div">
                         <div class="green-left">
-                                    <h1>LEMON SODA</h1>
-                                    <h1>OUR BEST SELLING DRINK FOR SUMMER</h1>
-                                    <img src="./assets/second slider/leaves.png" class="leaves">
+                            <h1>LEMON SODA</h1>
+                            <h1>OUR BEST SELLING DRINK FOR SUMMER</h1>
+                            <img src="./assets/second slider/leaves.png" class="leaves">
                         </div>
                         <div class="green-right">
                             <div class="imageBoxLemonSoda">
@@ -187,7 +188,7 @@
                         </div>
                     </div>
 
-                  </div>
+                </div>
 
                 <!-- forth slide -->
                   <div class="slide" id="Second-Slide-4">
@@ -202,13 +203,13 @@
 
                     </div>
                  
-                  </div>
-
-
+                </div>
 
 
                 
-                </div>
+                
+                
+            </div>
                 <button class="prev-btn" onclick="changeSlide(-1)"><i class="ri-arrow-left-s-line"></i></button>
                 <button class="next-btn" onclick="changeSlide(1)"><i class="ri-arrow-right-s-line"></i></button>
                 <div class="pagination"></div>
@@ -236,11 +237,13 @@
                     <div class="menuitem"><img src="./assets/slider images/pngegg (7).png" > <h1>burger</h1> <button>add in Cart</button></div>
                     <div class="menuitem"><img src="./assets/slider images/new (5).png" > <h1>burger</h1> <button>add in Cart</button></div>
                     <div class="menuitem"><img src="./assets/slider images/S.png" > <h1>burger</h1> <button>add in Cart</button></div>
-                 
+                    
                 </div>
             </div>
         </div>
-<!-- ----------------------------------------FOURTH Container-----44️⃣--------------------------------------------- -->
+
+        
+        <!-- ----------------------------------------FOURTH Container-----44️⃣--------------------------------------------- -->
 
         <div class="ContainerForth" id="Containerforth">
             <!---------------------------------- ⬅️ -->
@@ -304,9 +307,8 @@
                 <H1 class="weAreHere"> <span>WE</span> <SPan>ARE</SPan> <SPan>HERE<i class="ri-arrow-right-s-fill"></i></SPan></H1>
                 <div class="Findus"><H1>FIND</H1></div>
                 <div class="map-container">
-                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115776.15951631633!2d66.94825629726562!3d24.931900100000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33c8df7c74f89%3A0x2a2a4b2202d103be!2sBurger%20O&#39;Clock!5e0!3m2!1sen!2s!4v1706475452004!5m2!1sen!2s" target="_blank">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115776.15951631633!2d66.94825629726562!3d24.931900100000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33c8df7c74f89%3A0x2a2a4b2202d103be!2sBurger%20O&#39;Clock!5e0!3m2!1sen!2s!4v1706475452004!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map-iframe"></iframe>
-                    </a>
+                    
                 </div>
                     
             </div> 

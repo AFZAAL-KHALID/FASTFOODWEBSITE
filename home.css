@@ -1,18 +1,18 @@
 @font-face {
-    font-family:logoFont;
-    src: url(./assets/FONTWOFF2/PermanentMarker-Regular.woff2);
+  font-family: logoFont;
+  src: url(./assets/FONTWOFF2/PermanentMarker-Regular.woff2);
 }
 @font-face {
-    font-family:WATERMARK;
-    src: url(./assets/FONTWOFF2/WATERMARK.woff2);
+  font-family: WATERMARK;
+  src: url(./assets/FONTWOFF2/WATERMARK.woff2);
 }
 @font-face {
-    font-family:MenuFont;
-    src: url(./assets/FONTWOFF2/menuFont.woff2);
+  font-family: MenuFont;
+  src: url(./assets/FONTWOFF2/menuFont.woff2);
 }
 @font-face {
-    font-family:mainHeading;
-    src: url(./assets/FONTWOFF2/mainHeading.woff2);
+  font-family: mainHeading;
+  src: url(./assets/FONTWOFF2/mainHeading.woff2);
 }
 html {
   font-size: 10px;
@@ -37,7 +37,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 .innerIntro {
   position: relative;
@@ -104,7 +104,6 @@ body {
   transition: backgroundImage 0.6s ease;
 }
 .ContainerFirst .navBar {
-  /* background-color: red; */
   position: absolute;
   right: 1.5vw;
   top: 1.5vw;
@@ -120,7 +119,6 @@ body {
 .navBar ul {
   width: 60%;
   list-style: none;
-  /* background-color: green; */
   display: flex;
   justify-content: start;
   align-items: center;
@@ -457,19 +455,18 @@ body {
   align-items: center;
 }
 .orangeCursor {
+  z-index: 999;
   position: fixed;
-  left: 0%;
-  top: 0%;
-  z-index: 5;
+  left: 0%;  top: 0%;
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
   transform: translate(-60%, -60%);
   display: none;
+  opacity: 0;
 }
 
-.slider-container {
-  position: absolute;
+.slider-container {  position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -1645,7 +1642,7 @@ body {
     background-color: orange;
     z-index: 999;
     color: whitesmoke;
-    box-shadow: 0 5px 20px 10px 5PX rgba(234, 229, 229, 0.481);
+    box-shadow: 0 5px 20px 10px 5px rgba(234, 229, 229, 0.481);
     border: 3px solid white;
     font-family: sans-serif;
     position: absolute;
